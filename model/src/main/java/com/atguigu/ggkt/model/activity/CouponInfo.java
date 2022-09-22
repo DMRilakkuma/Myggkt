@@ -19,7 +19,7 @@ public class CouponInfo extends BaseEntity {
 	private static final long serialVersionUID = 1L;
 
 	@ApiModelProperty(value = "购物券类型 1 现金券")
-	@TableField("coupon_typa")
+	@TableField("coupon_type")
 	private String couponType;
 
 	@ApiModelProperty(value = "优惠卷名字")
@@ -57,7 +57,7 @@ public class CouponInfo extends BaseEntity {
 	private Integer publishCount;
 
 	@ApiModelProperty(value = "每人限领张数")
-	@TableField("per_limite")
+	@TableField("per_limit")
 	private Integer perLimit;
 
 	@ApiModelProperty(value = "已使用数量")

@@ -1,6 +1,7 @@
 package com.atguigu.ggkt.user.controller;
 
 import com.atguigu.ggkt.model.user.UserInfo;
+import com.atguigu.ggkt.user.service.UserInfoService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
